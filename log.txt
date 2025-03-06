@@ -26,3 +26,22 @@ Alteração feita no main
 
 teste de alteração no novo-branch
  novo-branch
+
+
+  271  git checkout novo-branch
+  272  git branch
+  273  echo "Alteração feita no novo-branch no log.txt"
+  277  git add log.txt
+  278  git commit -m "Alteração no novo-branch do log.txt"
+  280  git push origin novo-branch
+  281  git checkout main
+  282  echo "Alteração feita no main" >> log.txt
+  283  git add log.txt
+  284  git commit -m "Mudança no log.txt no main"
+  285  git push origin main
+  286  git merge novo-branch
+  287  git add log.txt
+  288  git commit -m "Resolvi o conflito do merge no log.txt"
+  289  git push origin main
+  290  history
+
