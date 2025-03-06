@@ -18,7 +18,11 @@ Comandos:
   243  git push origin nova-feature
   244  history
 
+ HEAD
 ---------
 Opcional:
 
 Alteração feita no main
+
+teste de alteração no novo-branch
+ novo-branch
