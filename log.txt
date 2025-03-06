@@ -1,0 +1,9 @@
+Comandos
+  222  git config --global user.email "2023108679@uac.pt"
+  223  git config --global user.name "tomasmoreira"
+  224  git config --global --list
+  225  git remote add origin https://github.com/BlueTT2015/git-treino.git
+  226  git remote -v
+  227  git clone https://github.com/BlueTT2015/labProg01.git
+  228  history
+
