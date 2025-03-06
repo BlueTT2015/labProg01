@@ -1,4 +1,5 @@
-Comandos
+Comandos:
+---------
   222  git config --global user.email "2023108679@uac.pt"
   223  git config --global user.name "tomasmoreira"
   224  git config --global --list
@@ -6,4 +7,15 @@ Comandos
   226  git remote -v
   227  git clone https://github.com/BlueTT2015/labProg01.git
   228  history
+  233  cd labProg01/
+  234  git add log.txt
+  235  git commit -m "Ficheiro log.txt atualizado"
+  236  git push origin main
+  237  git checkout -b nova-feature
+  240  git add nova-feature.txt
+  241  git commit -m "nova-feature.txt adicionado e editado no novo branch"
+  242  git branch
+  243  git push origin nova-feature
+  244  history
+
 
